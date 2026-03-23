@@ -1,0 +1,44 @@
+services:
+  mongo:
+    image: mongo:latest
+    container_name: lecscheduler-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - ga-network
+
+  redis:
+    image: redis:latest
+    container_name: lecscheduler-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - ga-network
+
+  lecscheduler:
+    image: ai-lecscheduler
+    build:
+      context: .
+    container_name: lecscheduler
+    ports:
+      - "3000:3000"
+      - "5001:5001"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017
+      - MONGO_DB=lecscheduler
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    networks:
+      - ga-network
+    depends_on:
+      - mongo
+      - redis
+
+networks:
+  ga-network:
+    driver: bridge
+
+volumes:
+  mongo_data:
