@@ -6,7 +6,7 @@ import threading
 from pathlib import Path
 from typing import Optional
 
-import motor
+from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
 
 logger = logging.getLogger(__name__)
 
@@ -18,14 +18,14 @@ DEFAULT_DB = os.getenv("MONGO_DB", "lecscheduler")
 
 class Database:
     def __init__(self):
-        self._client: Optional[motor.MotorClient] = None
-        self._db: Optional[motor.MotorDatabase] = None
+        self._client: Optional[AsyncIOMotorClient] = None
+        self._db: Optional[AsyncIOMotorDatabase] = None
         self._data: dict = {k: [] for k in COLLECTIONS}
         self._lock = threading.Lock()
 
     async def _async_init(self, uri: str, db_name: str):
         try:
-            self._client = motor.MotorClient(uri)
+            self._client = AsyncIOMotorClient(uri)
             await self._client.admin.command("ping")
             self._db = self._client[db_name]
             logger.info(f"MongoDB connected at {uri}")
