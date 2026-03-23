@@ -1,0 +1,671 @@
+{
+  "timeslots": [
+    {
+      "id": 1,
+      "day": 1,
+      "start_period": 1
+    },
+    {
+      "id": 2,
+      "day": 1,
+      "start_period": 2
+    },
+    {
+      "id": 3,
+      "day": 1,
+      "start_period": 3
+    },
+    {
+      "id": 4,
+      "day": 1,
+      "start_period": 4
+    },
+    {
+      "id": 5,
+      "day": 1,
+      "start_period": 5
+    },
+    {
+      "id": 6,
+      "day": 1,
+      "start_period": 6
+    },
+    {
+      "id": 7,
+      "day": 1,
+      "start_period": 7
+    },
+    {
+      "id": 8,
+      "day": 1,
+      "start_period": 8
+    },
+    {
+      "id": 9,
+      "day": 1,
+      "start_period": 9
+    },
+    {
+      "id": 10,
+      "day": 2,
+      "start_period": 1
+    },
+    {
+      "id": 11,
+      "day": 2,
+      "start_period": 2
+    },
+    {
+      "id": 12,
+      "day": 2,
+      "start_period": 3
+    },
+    {
+      "id": 13,
+      "day": 2,
+      "start_period": 4
+    },
+    {
+      "id": 14,
+      "day": 2,
+      "start_period": 5
+    },
+    {
+      "id": 15,
+      "day": 2,
+      "start_period": 6
+    },
+    {
+      "id": 16,
+      "day": 2,
+      "start_period": 7
+    },
+    {
+      "id": 17,
+      "day": 2,
+      "start_period": 8
+    },
+    {
+      "id": 18,
+      "day": 2,
+      "start_period": 9
+    },
+    {
+      "id": 19,
+      "day": 3,
+      "start_period": 1
+    },
+    {
+      "id": 20,
+      "day": 3,
+      "start_period": 2
+    },
+    {
+      "id": 21,
+      "day": 3,
+      "start_period": 3
+    },
+    {
+      "id": 22,
+      "day": 3,
+      "start_period": 4
+    },
+    {
+      "id": 23,
+      "day": 3,
+      "start_period": 5
+    },
+    {
+      "id": 24,
+      "day": 3,
+      "start_period": 6
+    },
+    {
+      "id": 25,
+      "day": 3,
+      "start_period": 7
+    },
+    {
+      "id": 26,
+      "day": 3,
+      "start_period": 8
+    },
+    {
+      "id": 27,
+      "day": 3,
+      "start_period": 9
+    },
+    {
+      "id": 28,
+      "day": 4,
+      "start_period": 1
+    },
+    {
+      "id": 29,
+      "day": 4,
+      "start_period": 2
+    },
+    {
+      "id": 30,
+      "day": 4,
+      "start_period": 3
+    },
+    {
+      "id": 31,
+      "day": 4,
+      "start_period": 4
+    },
+    {
+      "id": 32,
+      "day": 4,
+      "start_period": 5
+    },
+    {
+      "id": 33,
+      "day": 4,
+      "start_period": 6
+    },
+    {
+      "id": 34,
+      "day": 4,
+      "start_period": 7
+    },
+    {
+      "id": 35,
+      "day": 4,
+      "start_period": 8
+    },
+    {
+      "id": 36,
+      "day": 4,
+      "start_period": 9
+    },
+    {
+      "id": 37,
+      "day": 5,
+      "start_period": 1
+    },
+    {
+      "id": 38,
+      "day": 5,
+      "start_period": 2
+    },
+    {
+      "id": 39,
+      "day": 5,
+      "start_period": 3
+    },
+    {
+      "id": 40,
+      "day": 5,
+      "start_period": 4
+    },
+    {
+      "id": 41,
+      "day": 5,
+      "start_period": 5
+    },
+    {
+      "id": 42,
+      "day": 5,
+      "start_period": 6
+    },
+    {
+      "id": 43,
+      "day": 5,
+      "start_period": 7
+    },
+    {
+      "id": 44,
+      "day": 5,
+      "start_period": 8
+    },
+    {
+      "id": 45,
+      "day": 5,
+      "start_period": 9
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "101/C1",
+      "capacity": 120,
+      "type": "Lecture"
+    },
+    {
+      "id": 2,
+      "name": "102/C1",
+      "capacity": 120,
+      "type": "Lecture"
+    },
+    {
+      "id": 3,
+      "name": "201/C1",
+      "capacity": 90,
+      "type": "Lecture"
+    },
+    {
+      "id": 4,
+      "name": "202/C1",
+      "capacity": 90,
+      "type": "Lecture"
+    },
+    {
+      "id": 5,
+      "name": "301/C1",
+      "capacity": 60,
+      "type": "Lecture"
+    },
+    {
+      "id": 6,
+      "name": "302/C1",
+      "capacity": 60,
+      "type": "Lecture"
+    },
+    {
+      "id": 7,
+      "name": "303/C1",
+      "capacity": 50,
+      "type": "Lecture"
+    },
+    {
+      "id": 8,
+      "name": "304/C1",
+      "capacity": 50,
+      "type": "Lecture"
+    },
+    {
+      "id": 9,
+      "name": "101/DI",
+      "capacity": 40,
+      "type": "Lab"
+    },
+    {
+      "id": 10,
+      "name": "102/DI",
+      "capacity": 40,
+      "type": "Lab"
+    },
+    {
+      "id": 11,
+      "name": "103/DI",
+      "capacity": 35,
+      "type": "Lab"
+    },
+    {
+      "id": 12,
+      "name": "104/DI",
+      "capacity": 35,
+      "type": "Lab"
+    }
+  ],
+  "lecturers": [
+    {
+      "id": 1,
+      "name": "PhD. Nguyễn Hữu Hòa",
+      "maxUnitPerWeek": 20,
+      "preferenceDay": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "PhD. Phạm Thế Phi",
+      "maxUnitPerWeek": 18,
+      "preferenceDay": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "name": "PhD. Mã Trường Thành",
+      "maxUnitPerWeek": 22,
+      "preferenceDay": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 4,
+      "name": "PhD. Lâm Hoài Bảo",
+      "maxUnitPerWeek": 14,
+      "preferenceDay": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Assoc. Prof. Phạm Nguyên Khang",
+      "maxUnitPerWeek": 16,
+      "preferenceDay": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Prof. Huỳnh Xuân Hiệp",
+      "maxUnitPerWeek": 15,
+      "preferenceDay": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 7,
+      "name": "PhD. Phan Phương Lan",
+      "maxUnitPerWeek": 14,
+      "preferenceDay": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 8,
+      "name": "PhD. Nguyễn Công Danh",
+      "maxUnitPerWeek": 16,
+      "preferenceDay": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 9,
+      "name": "PhD. Huỳnh Quang Nghi",
+      "maxUnitPerWeek": 12,
+      "preferenceDay": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 10,
+      "name": "PhD. Trương Minh Thái",
+      "maxUnitPerWeek": 18,
+      "preferenceDay": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 11,
+      "name": "PhD. Trương Quốc Định",
+      "maxUnitPerWeek": 15,
+      "preferenceDay": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "courseCode": "CT052",
+      "name": "Đại số tuyến tính",
+      "unitsPerWeek": 9,
+      "studentsCount": 110,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 1,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 2,
+      "courseCode": "CT101",
+      "name": "Toán cho khoa học máy tính",
+      "unitsPerWeek": 12,
+      "studentsCount": 115,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 2,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 3,
+      "courseCode": "CT053",
+      "name": "Xác suất thống kê",
+      "unitsPerWeek": 9,
+      "studentsCount": 118,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 3,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 4,
+      "courseCode": "CT201",
+      "name": "Cấu trúc dữ liệu & Giải thuật",
+      "unitsPerWeek": 12,
+      "studentsCount": 75,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 4,
+      "maxUnitsPerDay": 4
+    },
+    {
+      "id": 5,
+      "courseCode": "CT202",
+      "name": "Lập trình hướng đối tượng",
+      "unitsPerWeek": 9,
+      "studentsCount": 70,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 5,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 6,
+      "courseCode": "CT301",
+      "name": "Mạng máy tính",
+      "unitsPerWeek": 12,
+      "studentsCount": 65,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 6,
+      "maxUnitsPerDay": 4
+    },
+    {
+      "id": 7,
+      "courseCode": "CT302",
+      "name": "Hệ điều hành",
+      "unitsPerWeek": 12,
+      "studentsCount": 60,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 7,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 8,
+      "courseCode": "CT303",
+      "name": "Kiến trúc máy tính",
+      "unitsPerWeek": 9,
+      "studentsCount": 55,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 8,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 9,
+      "courseCode": "CT204",
+      "name": "Lập trình căn bản A",
+      "unitsPerWeek": 12,
+      "studentsCount": 38,
+      "roomType": [
+        "Lab"
+      ],
+      "lecturerId": 9,
+      "maxUnitsPerDay": 4
+    },
+    {
+      "id": 10,
+      "courseCode": "CT205",
+      "name": "Lập trình căn bản B",
+      "unitsPerWeek": 12,
+      "studentsCount": 36,
+      "roomType": [
+        "Lab"
+      ],
+      "lecturerId": 10,
+      "maxUnitsPerDay": 4
+    },
+    {
+      "id": 11,
+      "courseCode": "CT401",
+      "name": "Máy học ứng dụng",
+      "unitsPerWeek": 9,
+      "studentsCount": 34,
+      "roomType": [
+        "Lab"
+      ],
+      "lecturerId": 3,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 12,
+      "courseCode": "CT402",
+      "name": "Thị giác máy tính",
+      "unitsPerWeek": 9,
+      "studentsCount": 32,
+      "roomType": [
+        "Lab"
+      ],
+      "lecturerId": 5,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 13,
+      "courseCode": "CT305",
+      "name": "Công nghệ phần mềm",
+      "unitsPerWeek": 12,
+      "studentsCount": 55,
+      "roomType": [
+        "Lecture",
+        "Lab"
+      ],
+      "lecturerId": 10,
+      "maxUnitsPerDay": 4
+    },
+    {
+      "id": 14,
+      "courseCode": "CT306",
+      "name": "Kiểm thử phần mềm",
+      "unitsPerWeek": 9,
+      "studentsCount": 40,
+      "roomType": [
+        "Lecture",
+        "Lab"
+      ],
+      "lecturerId": 8,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 15,
+      "courseCode": "CT307",
+      "name": "Phân tích thiết kế hệ thống",
+      "unitsPerWeek": 12,
+      "studentsCount": 50,
+      "roomType": [
+        "Lecture",
+        "Lab"
+      ],
+      "lecturerId": 6,
+      "maxUnitsPerDay": 4
+    },
+    {
+      "id": 16,
+      "courseCode": "CT503",
+      "name": "Đề tài nghiên cứu",
+      "unitsPerWeek": 4,
+      "studentsCount": 22,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 7,
+      "maxUnitsPerDay": 2
+    },
+    {
+      "id": 17,
+      "courseCode": "CT601",
+      "name": "Trí tuệ nhân tạo nâng cao",
+      "unitsPerWeek": 18,
+      "studentsCount": 60,
+      "roomType": [
+        "Lecture"
+      ],
+      "lecturerId": 2,
+      "maxUnitsPerDay": 5
+    },
+    {
+      "id": 18,
+      "courseCode": "CT602",
+      "name": "Phát triển ứng dụng web",
+      "unitsPerWeek": 15,
+      "studentsCount": 45,
+      "roomType": [
+        "Lecture",
+        "Lab"
+      ],
+      "lecturerId": 4,
+      "maxUnitsPerDay": 5
+    },
+    {
+      "id": 19,
+      "courseCode": "CT403",
+      "name": "Thực hành AI",
+      "unitsPerWeek": 9,
+      "studentsCount": 35,
+      "roomType": [
+        "Lab"
+      ],
+      "lecturerId": 1,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 20,
+      "courseCode": "CT404",
+      "name": "IoT cơ bản",
+      "unitsPerWeek": 9,
+      "studentsCount": 38,
+      "roomType": [
+        "Lab"
+      ],
+      "lecturerId": 4,
+      "maxUnitsPerDay": 3
+    },
+    {
+      "id": 21,
+      "courseCode": "CT405",
+      "name": "Blockchain",
+      "unitsPerWeek": 12,
+      "studentsCount": 30,
+      "roomType": [
+        "Lab"
+      ],
+      "lecturerId": 6,
+      "maxUnitsPerDay": 4
+    }
+  ]
+}
