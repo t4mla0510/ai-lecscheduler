@@ -107,7 +107,6 @@ class GAScheduler:
         self.best_fitness = None
         self.stopping = None
         self.generation_trace: List[Dict] = []
-        self.redis_client = cache.get_redis()
 
     def _load_data(self):
         courses = [Course.from_dict(c) for c in db.get_collection("courses")]
@@ -177,7 +176,7 @@ class GAScheduler:
                 rooms_dict=self.rooms_dict,
                 timeslots_dict=self.timeslots_dict,
                 method=self.fit_cfg.method,
-                cache=self.redis_client,
+                cache=cache,
                 **extra_kwargs,
             )
 
